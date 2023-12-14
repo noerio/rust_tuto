@@ -7,6 +7,7 @@ mod ownership;
 mod borrowing;
 mod string;
 mod array;
+mod slice;
 
 fn main() {
     variables::variables_ex();
@@ -26,4 +27,6 @@ fn main() {
     string::string_ex();
     println!();
     array::array_ex();
+    println!();
+    slice::slice_ex();
 }
