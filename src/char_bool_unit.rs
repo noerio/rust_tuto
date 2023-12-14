@@ -67,7 +67,7 @@ fn ex6() {
 }
 
 pub fn char_bool_unit_ex() {
-    println!("Char, Bool and Unit:");
+    println!("Char, Bool & Unit:");
     print!("Exercice 01: ");
     ex1();
     print!("\nExercice 02: ");
