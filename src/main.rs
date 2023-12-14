@@ -6,6 +6,7 @@ mod functions;
 mod ownership;
 mod borrowing;
 mod string;
+mod array;
 
 fn main() {
     variables::variables_ex();
@@ -23,4 +24,6 @@ fn main() {
     borrowing::borrowing_ex();
     println!();
     string::string_ex();
+    println!();
+    array::array_ex();
 }
