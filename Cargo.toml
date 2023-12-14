@@ -1,5 +1,5 @@
 [package]
-name = "RustTuto"
+name = "rust_tuto"
 version = "0.1.0"
 edition = "2021"
 

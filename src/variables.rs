@@ -52,14 +52,14 @@ fn ex5() {
 
 // Remove a line in the code to make it compile
 fn ex6() {
-    let mut x: i32 = 1;
-    x = 7;
+    let mut _x: i32 = 1;
+    _x = 7;
     // Shadowing and re-binding
-    x += 3;
+    _x += 3;
 
-    let y = 4;
+    let _y = 4;
     // Shadowing
-    let y = "I can also be bound to text!";
+    let _y = "I can also be bound to text!";
 
     println!("Success!");
 }
@@ -67,6 +67,8 @@ fn ex6() {
 // #[allow(unused_variables)] first solution
 fn ex7() {
     let _x = 1; // second solution "x" -> "_x"
+
+    println!("Success!");
 }
 
 // Fix the error below with least amount of modification
@@ -91,22 +93,23 @@ fn ex9() {
 }
 
 pub fn variables_ex() {
-    println!("Exercice 01: ");
+    println!("Variables:");
+    print!("Exercice 01: ");
     ex1();
-    println!("\nExercice 02: ");
+    print!("\nExercice 02: ");
     ex2();
-    println!("\nExercice 03: ");
+    print!("\nExercice 03: ");
     ex3();
-    println!("\nExercice 04: ");
+    print!("\nExercice 04: ");
     ex4();
-    println!("\nExercice 05: ");
+    print!("\nExercice 05: ");
     ex5();
-    println!("\nExercice 06: ");
+    print!("\nExercice 06: ");
     ex6();
-    println!("\nExercice 07: ");
+    print!("\nExercice 07: ");
     ex7();
-    println!("\nExercice 08: ");
+    print!("\nExercice 08: ");
     ex8();
-    println!("\nExercice 09: ");
+    print!("\nExercice 09: ");
     ex9();
 }
