@@ -4,6 +4,8 @@ mod char_bool_unit;
 mod statements;
 mod functions;
 mod ownership;
+mod borrowing;
+mod string;
 
 fn main() {
     variables::variables_ex();
@@ -17,4 +19,8 @@ fn main() {
     functions::functions_ex();
     println!();
     ownership::ownership_ex();
+    println!();
+    borrowing::borrowing_ex();
+    println!();
+    string::string_ex();
 }
