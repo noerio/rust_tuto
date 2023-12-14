@@ -8,6 +8,7 @@ mod borrowing;
 mod string;
 mod array;
 mod slice;
+mod tuple;
 
 fn main() {
     variables::variables_ex();
@@ -29,4 +30,6 @@ fn main() {
     array::array_ex();
     println!();
     slice::slice_ex();
+    println!();
+    tuple::tuple_ex();
 }
