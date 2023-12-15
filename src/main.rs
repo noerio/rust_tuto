@@ -9,6 +9,7 @@ mod string;
 mod array;
 mod slice;
 mod tuple;
+mod struct_f;
 
 fn main() {
     variables::variables_ex();
@@ -32,4 +33,6 @@ fn main() {
     slice::slice_ex();
     println!();
     tuple::tuple_ex();
+    println!();
+    struct_f::struct_ex();
 }
