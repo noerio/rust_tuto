@@ -11,6 +11,7 @@ mod slice;
 mod tuple;
 mod struct_f;
 mod enum_f;
+mod flow_control;
 
 fn main() {
     variables::variables_ex();
@@ -38,4 +39,6 @@ fn main() {
     struct_f::struct_ex();
     println!();
     enum_f::enum_ex();
+    println!();
+    flow_control::flow_control_ex();
 }
