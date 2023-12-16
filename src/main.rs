@@ -14,6 +14,7 @@ mod enum_f;
 mod flow_control;
 mod pattern_match;
 mod method;
+mod generic;
 
 fn main() {
     variables::variables_ex();
@@ -47,4 +48,6 @@ fn main() {
     pattern_match::pattern_match_ex();
     println!();
     method::method_ex();
+    println!();
+    generic::generic_ex();
 }
