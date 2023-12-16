@@ -10,6 +10,7 @@ mod array;
 mod slice;
 mod tuple;
 mod struct_f;
+mod enum_f;
 
 fn main() {
     variables::variables_ex();
@@ -35,4 +36,6 @@ fn main() {
     tuple::tuple_ex();
     println!();
     struct_f::struct_ex();
+    println!();
+    enum_f::enum_ex();
 }
