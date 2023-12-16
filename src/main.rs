@@ -12,6 +12,7 @@ mod tuple;
 mod struct_f;
 mod enum_f;
 mod flow_control;
+mod pattern_match;
 
 fn main() {
     variables::variables_ex();
@@ -41,4 +42,6 @@ fn main() {
     enum_f::enum_ex();
     println!();
     flow_control::flow_control_ex();
+    println!();
+    pattern_match::pattern_match_ex();
 }

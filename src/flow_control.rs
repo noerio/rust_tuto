@@ -173,6 +173,7 @@ fn ex10() {
     println!("Success!");
 }
 
+#[allow(unused_labels)]
 // Fill in the blank
 fn ex11() {
     let mut count = 0;
