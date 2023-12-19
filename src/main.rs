@@ -15,6 +15,7 @@ mod flow_control;
 mod pattern_match;
 mod method;
 mod generic;
+mod traits;
 
 fn main() {
     variables::variables_ex();
@@ -50,4 +51,6 @@ fn main() {
     method::method_ex();
     println!();
     generic::generic_ex();
+    println!();
+    traits::traits_ex();
 }
