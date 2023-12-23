@@ -207,7 +207,7 @@ fn ex5() {
 }
 
 pub fn associated_types_ex() {
-    println!(":");
+    println!("Associated Types:");
     print!("Exercice 01: ");
     ex1();
     print!("\nExercice 02: ");

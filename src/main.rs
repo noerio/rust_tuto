@@ -18,6 +18,7 @@ mod generic;
 mod traits;
 mod objtraits;
 mod associated_types;
+mod collection_string;
 
 fn main() {
     variables::variables_ex();
@@ -59,4 +60,6 @@ fn main() {
     objtraits::objtraits_ex();
     println!();
     associated_types::associated_types_ex();
+    println!();
+    collection_string::collection_string_ex();
 }
