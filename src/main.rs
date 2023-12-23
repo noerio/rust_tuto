@@ -16,6 +16,8 @@ mod pattern_match;
 mod method;
 mod generic;
 mod traits;
+mod objtraits;
+mod associated_types;
 
 fn main() {
     variables::variables_ex();
@@ -53,4 +55,8 @@ fn main() {
     generic::generic_ex();
     println!();
     traits::traits_ex();
+    println!();
+    objtraits::objtraits_ex();
+    println!();
+    associated_types::associated_types_ex();
 }
