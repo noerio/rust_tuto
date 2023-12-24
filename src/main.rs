@@ -20,6 +20,7 @@ mod objtraits;
 mod associated_types;
 mod collection_string;
 mod collection_vector;
+mod collection_hashmaps;
 
 fn main() {
     variables::variables_ex();
@@ -65,4 +66,6 @@ fn main() {
     collection_string::collection_string_ex();
     println!();
     collection_vector::collection_vector_ex();
+    println!();
+    collection_hashmaps::collection_hashmaps_ex();
 }
