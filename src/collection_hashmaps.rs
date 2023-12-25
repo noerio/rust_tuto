@@ -142,8 +142,4 @@ pub fn collection_hashmaps_ex() {
     ex4();
     print!("\nExercice 05: ");
     ex5();
-    // print!("\nExercice 06: ");
-    // ex6();
-    // print!("\nExercice 07: ");
-    // ex7();
 }
