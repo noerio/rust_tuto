@@ -22,6 +22,7 @@ mod collection_string;
 mod collection_vector;
 mod collection_hashmaps;
 mod type_conversion;
+mod panic;
 
 fn main() {
     variables::variables_ex();
@@ -71,4 +72,6 @@ fn main() {
     collection_hashmaps::collection_hashmaps_ex();
     println!();
     type_conversion::type_conversion_ex();
+    println!();
+    panic::panic_ex();
 }
