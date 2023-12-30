@@ -1,5 +1,3 @@
-use core::panic;
-
 // FILL the blanks
 fn drink(beverage: &str) {
     if beverage == "lemonade" {
