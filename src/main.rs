@@ -24,6 +24,7 @@ mod collection_hashmaps;
 mod type_conversion;
 mod panic;
 mod result;
+mod documentation;
 
 fn main() {
     variables::variables_ex();
@@ -77,4 +78,6 @@ fn main() {
     panic::panic_ex();
     println!();
     result::result_ex();
+    println!();
+    documentation::documentation_ex();
 }
